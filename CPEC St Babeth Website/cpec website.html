@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CPEC SAINT BABETH</title>
+
+ <link rel="stylesheet" href="cpec website.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+<div class="logo">
+
+<img src="cpec logo.png">
+
+<h2>CPEC SAINT BABETH</h2>
+
+</div>
+
+<div class="menu-btn" id="menu-btn">
+☰
+</div>
+
+<ul class="menu" id="menu">
+
+<li>
+<button class="nav-btn" onclick="showPage('home')">
+Home
+</button>
+</li>
+
+<li>
+<button class="nav-btn" onclick="showPage('departments')">
+Departments
+</button>
+</li>
+
+<li>
+<button class="nav-btn" onclick="showPage('gallery')">
+Gallery
+</button>
+</li>
+
+<li>
+<button class="nav-btn" onclick="showPage('map')">
+Map
+</button>
+</li>
+
+<li>
+<button class="nav-btn" onclick="showPage('apply')">
+Apply
+</button>
+</li>
+
+<li>
+<button class="nav-btn" onclick="showPage('contact')">
+Contact
+</button>
+</li>
+
+</ul>
+
+</header>
+
+<!-- ================= HOME PAGE ================= -->
+
+<section id="home" class="page active-page">
+
+<div class="hero">
+
+<div class="hero-content">
+
+<h1>WELCOME TO CPEC SAINT BABETH</h1>
+
+<p>
+Empowering students with modern education and practical skills
+</p>
+
+<button class="btn" onclick="showPage('departments')">
+Explore Departments
+</button>
+
+</div>
+
+</div>
+
+<div class="stats">
+
+<div>
+<h1 class="count" data-target="5000">0</h1>
+<p>Students</p>
+</div>
+
+<div>
+<h1 class="count" data-target="450">0</h1>
+<p>Professional Staff</p>
+</div>
+
+<div>
+<h1 class="count" data-target="120">0</h1>
+<p>Computer Labs</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= DEPARTMENTS PAGE ================= -->
+
+<section id="departments" class="page">
+
+<h2 class="section-title">
+Departments
+</h2>
+
+<div class="department-buttons">
+
+<button onclick="showDepartment('sod')">
+Software Development
+</button>
+
+<button onclick="showDepartment('mmp')">
+Multimedia Production
+</button>
+
+<button onclick="showDepartment('lab')">
+Laboratories
+</button>
+
+</div>
+
+<!-- SOFTWARE -->
+
+<div id="sod" class="department-content">
+
+<div class="grid">
+
+<div class="card">
+<img src="sodlab.png">
+<div class="card-content">
+<h3>Programming Lab</h3>
+<p>Advanced software engineering practical sessions.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="sod - Copy.png">
+<div class="card-content">
+<h3>Modern Coding Classes</h3>
+<p>Professional software development environment.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="download.jpg">
+<div class="card-content">
+<h3>ICT Innovation</h3>
+<p>Students creating modern digital solutions.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- MMP -->
+
+<div id="mmp" class="department-content">
+
+<div class="grid">
+
+<div class="card">
+<img src="camera.jpg">
+<div class="card-content">
+<h3>Videography</h3>
+<p>Professional video shooting and editing.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="mult.jpg">
+<div class="card-content">
+<h3>Multimedia Studio</h3>
+<p>Creative production and media training.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="mmp.jpg">
+<div class="card-content">
+<h3>Media Production</h3>
+<p>Hands-on practical multimedia experience.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- LAB -->
+
+<div id="lab" class="department-content">
+
+<div class="grid">
+
+<div class="card">
+<img src="image.jpg">
+<div class="card-content">
+<h3>Computer Laboratory</h3>
+<p>Modern ICT practical classrooms.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="k.jpg">
+<div class="card-content">
+<h3>Training Sessions</h3>
+<p>Interactive digital learning environment.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="yes.png">
+<div class="card-content">
+<h3>Modern Facilities</h3>
+<p>Professional learning atmosphere.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= GALLERY PAGE ================= -->
+
+<section id="gallery" class="page gallery">
+
+<h2 class="section-title">
+Campus Gallery
+</h2>
+
+<div class="gallery-grid">
+
+<img src="S1.jpg">
+<img src="S2.jpg">
+<img src="S3.jpg">
+<img src="rwose.jpg">
+<img src="classes.jpg">
+<img src="computer.jpg">
+
+</div>
+
+</section>
+
+<!-- ================= MAP PAGE ================= -->
+
+<section id="map" class="page">
+
+<h2 class="section-title">
+Find CPEC SAINT BABETH TSS
+</h2>
+
+<div class="map-container">
+
+<iframe
+src="https://www.google.com/maps?q=CPEC+SAINT+BABETH+TSS+Gicumbi+Rwanda&output=embed"
+allowfullscreen=""
+loading="lazy">
+</iframe>
+
+</div>
+
+<div style="text-align:center; margin-top:20px;">
+
+<p>📍 Gicumbi Stadium</p>
+<p>📍 Byumba Hospital</p>
+<p>📍 Dove Luxury Hotel</p>
+<p>📍 Byumba Inyange</p>
+<p>📍 Byumba Market</p>
+
+</div>
+
+</section>
+
+<!-- ================= APPLY PAGE ================= -->
+
+<section id="apply" class="page apply">
+
+<h2 class="section-title" style="color:white;">
+Apply Online
+</h2>
+
+<form>
+
+<input type="text" placeholder="Full Name">
+
+<input type="email" placeholder="Email">
+
+<input type="tel" placeholder="Phone Number">
+
+<select>
+
+<option>Select Level</option>
+
+<option>S1</option>
+<option>S2</option>
+<option>S3</option>
+
+<option>L3</option>
+<option>L4</option>
+<option>L5</option>
+
+</select>
+
+<textarea placeholder="Message"></textarea>
+
+<button type="submit">
+Submit Application
+</button>
+
+</form>
+
+</section>
+
+<!-- ================= CONTACT PAGE ================= -->
+
+<section id="contact" class="page contact">
+
+<h2 class="section-title" style="color:white;">
+Contact Us
+</h2>
+
+<p>
+📧 Email:
+<a href="mailto:cpecsaintbabeth@gmail.com">
+cpecsaintbabeth@gmail.com
+</a>
+</p>
+
+<p>
+📞 Phone:
+<a href="tel:+250788556028">
++250 788 556 028
+</a>
+</p>
+
+<p>
+🌍 Website:
+<a href="#">
+www.cpecsaintbabeth.com
+</a>
+</p>
+
+<p>
+📘 Facebook:
+<a href="#">
+CPEC SAINT BABETH
+</a>
+</p>
+
+<p>
+📸 Instagram:
+<a href="#">
+@cpecsaintbabeth
+</a>
+</p>
+
+<p>
+▶ YouTube:
+<a href="#">
+CPEC SAINT BABETH TV
+</a>
+</p>
+
+<p>
+💬 WhatsApp:
+<a href="https://wa.me/250788556028">
+Chat With Us
+</a>
+</p>
+
+<p style="margin-top:20px;">
+📍 Gicumbi - Rwanda
+</p>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+© 2026 CPEC SAINT BABETH
+
+</footer>
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="cpec website.js"></script>
+
+</body>
+</html>
